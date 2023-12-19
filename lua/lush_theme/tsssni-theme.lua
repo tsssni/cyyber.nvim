@@ -98,7 +98,7 @@ local theme = lush(function(injected_functions)
     SpellCap       { fg = "#aaaabb", sp = "#4685ea", undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal     { fg = "#aaaabb", sp = "#00ffc8", undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare      { fg = "#aaaabb", sp = "#8b4efc", undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-    StatusLine     { fg = "#f8f8ff", bg = "#ff0055" }, -- Status line of current window
+    StatusLine     { fg = "#f8f8ff", bg = "#000000" }, -- Status line of current window
     StatusLineNC   { fg = "#f8f8ff", bg = "#000000" }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     -- TabLine        { }, -- Tab pages line, not active tab page label
     -- TabLineFill    { }, -- Tab pages line, where there are no labels
