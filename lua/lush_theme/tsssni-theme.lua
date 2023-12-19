@@ -99,7 +99,7 @@ local theme = lush(function(injected_functions)
     SpellLocal     { fg = "#aaaabb", sp = "#00ffc8", undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare      { fg = "#aaaabb", sp = "#8b4efc", undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
     StatusLine     { fg = "#f8f8ff", bg = "#000000" }, -- Status line of current window
-    StatusLineNC   { fg = "#f8f8ff", bg = "#000000" }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    StatusLineNC   { fg = "#aaaabb", bg = "#000000" }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     -- TabLine        { }, -- Tab pages line, not active tab page label
     -- TabLineFill    { }, -- Tab pages line, where there are no labels
     -- TabLineSel     { }, -- Tab pages line, active tab page label
