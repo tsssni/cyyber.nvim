@@ -1,5 +1,3 @@
-A Lush Theme for Neovim.
-===
+# tsssni theme
 
-See: http://git.io/lush.nvim for more information on Lush and a helper script
-to setup your repo clone.
+created via [lush.nvim](http://github.com/rktjmp/lush.nvim)
