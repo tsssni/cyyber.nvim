@@ -112,6 +112,11 @@ local theme = lush(function(injected_functions)
     WildMenu       { fg = "#ff0055" }, -- Current match in 'wildmenu' completion
     WinBar         { fg = "#777777" }, -- Window bar of current window
     WinBarNC       { fg = "#777777" }, -- Window bar of not-current windows
+    DashboardHeader { fg = "#ff0055" },
+    DashboardFooter { fg = "#333333" },
+    DashboardProjectTitle { fg = "#00ffc8" },
+    DashboardMruTitle { fg = "#00ffc8" },
+    DashboardShortCut { fg = "#00ffc8" },
 
     -- Commented-out groups should chain up to their preferred (*) group
     -- by default.
