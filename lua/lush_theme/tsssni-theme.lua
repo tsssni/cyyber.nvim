@@ -48,8 +48,8 @@ local theme = lush(function(injected_functions)
     CurSearch      { fg = '#333333', bg = '#a8a8ff' }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
     lCursor        { fg = '#aaaabb' }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
     CursorIM       { fg = '#aaaabb' }, -- Like Cursor, but used when in IME mode |CursorIM|
-    CursorColumn   { fg = '#ff6699', bg = '#333333' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
-    CursorLine     { fg = '#ff6699', bg = '#333333'  }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
+    CursorColumn   { }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
+    CursorLine     { }, -- Screen-line at the cursor, when 'cursorline' is set. Low-priority if foreground (ctermfg OR guifg) is not set.
     Directory      { fg = '#ff0055' }, -- Directory names (and other special names in listings)
     DiffAdd        { fg = '#bef743' }, -- Diff mode: Added line |diff.txt|
     DiffChange     { fg = '#ffff40' }, -- Diff mode: Changed line |diff.txt|
