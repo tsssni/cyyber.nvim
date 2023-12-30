@@ -91,7 +91,7 @@ local theme = lush(function(injected_functions)
     PmenuSbar      { fg = '#777777', bg = '#333333' }, -- Popup menu: Scrollbar.
     PmenuThumb     { fg = '#f8f8ff', bg = '#ff0055' }, -- Popup menu: Thumb of the scrollbar. l
     Question       { fg = '#61a702' }, -- |hit-enter| prompt and yes/no questions
-    QuickFixLine   { fg = '#333333', bg = '#ffff40' }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
+    QuickFixLine   { fg = '#333333', bg = '#a8a8ff' }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
     Search         { fg = '#333333', bg = '#a8a8ff' }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
     SpecialKey     { fg = '#00ffc8' }, -- Unprintable characters: text displayed differently from what it really is. But not 'listchars' whitespace. |hl-Whitespace|
     SpellBad       { fg = '#aaaabb', sp = '#ff0055', undercurl = true }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
