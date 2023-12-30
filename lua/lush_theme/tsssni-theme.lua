@@ -45,7 +45,7 @@ local theme = lush(function(injected_functions)
     ColorColumn    { fg = '#f8f8ff', bg = '#ff0055' }, -- Columns set with 'colorcolumn'
     Conceal        { fg = '#777777' }, -- Placeholder characters substituted for concealed text (see 'conceallevel')
     Cursor         { fg = '#4685ea' }, -- Character under the cursor
-    CurSearch      { fg = '#333333', bg = '#ffff40' }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
+    CurSearch      { fg = '#333333', bg = '#a8a8ff' }, -- Highlighting a search pattern under the cursor (see 'hlsearch')
     lCursor        { fg = '#aaaabb' }, -- Character under the cursor when |language-mapping| is used (see 'guicursor')
     CursorIM       { fg = '#aaaabb' }, -- Like Cursor, but used when in IME mode |CursorIM|
     CursorColumn   { fg = '#ff6699', bg = '#333333' }, -- Screen-column at the cursor, when 'cursorcolumn' is set.
@@ -63,8 +63,8 @@ local theme = lush(function(injected_functions)
     Folded         { fg = '#f8f8ff', bg = '#ff6699' }, -- Line used for closed folds
     FoldColumn     { fg = '#f8f8ff', bg = '#ff6699' }, -- 'foldcolumn'
     SignColumn     { fg = '#ff0055', bg = '#120b10' }, -- Column where |signs| are displayed
-    IncSearch      { fg = '#333333', bg = '#ffff40' }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
-    Substitute     { fg = '#333333', bg = '#ffff40' }, -- |:substitute| replacement text highlighting
+    IncSearch      { fg = '#333333', bg = '#a8a8ff' }, -- 'incsearch' highlighting; also used for the text replaced with ":s///c"
+    Substitute     { fg = '#333333', bg = '#a8a8ff' }, -- |:substitute| replacement text highlighting
     LineNr         { fg = '#8b4efc' }, -- Line number for ":number" and ":#" commands, and when 'number' or 'relativenumber' option is set.
     -- LineNrAbove    { }, -- Line number for when the 'relativenumber' option is set, above the cursor line
     -- LineNrBelow    { }, -- Line number for when the 'relativenumber' option is set, below the cursor line
@@ -92,7 +92,7 @@ local theme = lush(function(injected_functions)
     PmenuThumb     { fg = '#f8f8ff', bg = '#ff0055' }, -- Popup menu: Thumb of the scrollbar. l
     Question       { fg = '#61a702' }, -- |hit-enter| prompt and yes/no questions
     QuickFixLine   { fg = '#333333', bg = '#ffff40' }, -- Current |quickfix| item in the quickfix window. Combined with |hl-CursorLine| when the cursor is there.
-    Search         { fg = '#333333', bg = '#ffff40' }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
+    Search         { fg = '#333333', bg = '#a8a8ff' }, -- Last search pattern highlighting (see 'hlsearch'). Also used for similar items that need to stand out.
     SpecialKey     { fg = '#00ffc8' }, -- Unprintable characters: text displayed differently from what it really is. But not 'listchars' whitespace. |hl-Whitespace|
     SpellBad       { fg = '#aaaabb', sp = '#ff0055', undercurl = true }, -- Word that is not recognized by the spellchecker. |spell| Combined with the highlighting used otherwise.
     SpellCap       { fg = '#aaaabb', sp = '#4685ea', undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
