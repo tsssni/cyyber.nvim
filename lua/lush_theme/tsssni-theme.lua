@@ -165,7 +165,7 @@ local theme = lush(function(injected_functions)
 
     Underlined     { gui = 'underline', fg = '#8b4efc' }, -- Text that stands out, HTML links
     Ignore         { fg = "#777777" }, -- Left blank, hidden |hl-Ignore| (NOTE: May be invisible here in template)
-    Error          { fg = '#00ffc8', bg = '#ff0055' }, -- Any erroneous construct
+    Error          { fg = '#f8f8ff', bg = '#ff0055' }, -- Any erroneous construct
     Todo           { fg = '#333333', bg = '#ffff40' }, -- Anything that needs extra attention; mostly the keywords TODO FIXME and XXX
 
     -- These groups are for the native LSP client and diagnostic system. Some
