@@ -117,6 +117,11 @@ local theme = lush(function(injected_functions)
     DashboardProjectTitle { fg = '#00ffc8' },
     DashboardMruTitle { fg = '#00ffc8' },
     DashboardShortCut { fg = '#00ffc8' },
+    LualineMode { fg = '#00ffc8' },
+    LualineRuler { fg = '#7ff5f5' },
+    LualineLsp { fg = '#bef743' },
+    LualineScope { fg = '#46a5ea' },
+    LualineBranch { fg = '#a8a8ff' },
 
     -- Commented-out groups should chain up to their preferred (*) group
     -- by default.
