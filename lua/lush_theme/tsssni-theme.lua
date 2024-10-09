@@ -78,11 +78,12 @@ local theme = lush(function(injected_functions)
     -- MoreMsg        { }, -- |more-prompt|
     NonText        { fg = '#333333' }, -- '@' at the end of the window, characters from 'showbreak' and other characters that do not really exist in the text (e.g., ">" displayed when a double-wide character doesn't fit at the end of the line). See also |hl-EndOfBuffer|.
     Normal         { fg = '#f5c1e9', bg = '#120b10' }, -- Normal text
-    NormalFloat    { fg = '#f5c1e9', bg = '#000000' }, -- Normal text in floating windows.
+    NormalFloat    { fg = '#f5c1e9', bg = '#120b10' }, -- Normal text in floating windows.
     -- FloatBorder    { }, -- Border of floating windows.
     -- FloatTitle     { }, -- Title of floating windows.
     -- NormalNC       { }, -- normal text in non-current windows
-    Pmenu          { fg = '#ff6699', bg = '#000000' }, -- Popup menu: Normal item.
+    -- point
+    Pmenu          { fg = '#ff6699', bg = '#120b10' }, -- Popup menu: Normal item.
     PmenuSel       { fg = '#f8f8ff', bg = '#ff0055' }, -- Popup menu: Selected item.
     -- PmenuKind      { }, -- Popup menu: Normal item "kind"
     -- PmenuKindSel   { }, -- Popup menu: Selected item "kind" 
@@ -98,8 +99,8 @@ local theme = lush(function(injected_functions)
     SpellCap       { fg = '#aaaabb', sp = '#4685ea', undercurl = true }, -- Word that should start with a capital. |spell| Combined with the highlighting used otherwise.
     SpellLocal     { fg = '#aaaabb', sp = '#00ffc8', undercurl = true }, -- Word that is recognized by the spellchecker as one that is used in another region. |spell| Combined with the highlighting used otherwise.
     SpellRare      { fg = '#aaaabb', sp = '#8b4efc', undercurl = true }, -- Word that is recognized by the spellchecker as one that is hardly ever used. |spell| Combined with the highlighting used otherwise.
-    StatusLine     { fg = '#f8f8ff', bg = '#000000' }, -- Status line of current window
-    StatusLineNC   { fg = '#aaaabb', bg = '#000000' }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
+    StatusLine     { fg = '#f8f8ff', bg = '#120b10' }, -- Status line of current window
+    StatusLineNC   { fg = '#aaaabb', bg = '#120b10' }, -- Status lines of not-current windows. Note: If this is equal to "StatusLine" Vim will use "^^^" in the status line of the current window.
     -- TabLine        { }, -- Tab pages line, not active tab page label
     -- TabLineFill    { }, -- Tab pages line, where there are no labels
     -- TabLineSel     { }, -- Tab pages line, active tab page label
