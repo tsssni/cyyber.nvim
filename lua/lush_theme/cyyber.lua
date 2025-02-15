@@ -154,6 +154,8 @@ local theme = lush(function(injected_functions)
     LualineLsp { fg = light_green },
     LualineScope { fg = blue },
     LualineBranch { fg = light_magenta },
+    InclineNormal {},
+    InclineNormalNC {},
 
     -- Commented-out groups should chain up to their preferred (*) group
     -- by default.
