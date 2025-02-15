@@ -82,6 +82,9 @@ local theme = lush(function(injected_functions)
     DiffChange     { fg = light_yellow }, -- Diff mode: Changed line |diff.txt|
     DiffDelete     { fg = red }, -- Diff mode: Deleted line |diff.txt|
     DiffText       { fg = light_blue }, -- Diff mode: Changed text within a changed line |diff.txt|
+    GitSignsAdd        { fg = light_green }, -- Diff mode: Added line |diff.txt|
+    GitSignsChange     { fg = light_yellow }, -- Diff mode: Changed line |diff.txt|
+    GitSignsDelete     { fg = red }, -- Diff mode: Deleted line |diff.txt|
     EndOfBuffer    { fg = blue }, -- Filler lines (~) after the end of the buffer. By default, this is highlighted like |hl-NonText|.
     TermCursor     { fg = black, bg = light_black }, -- Cursor in a focused terminal
     TermCursorNC   { fg = light_black }, -- Cursor in an unfocused terminal
@@ -145,6 +148,7 @@ local theme = lush(function(injected_functions)
     DashboardProjectTitle { fg = cyan },
     DashboardMruTitle { fg = cyan },
     DashboardShortCut { fg = cyan },
+    Lualine {},
     LualineMode { fg = cyan },
     LualineRuler { fg = light_cyan },
     LualineLsp { fg = light_green },
