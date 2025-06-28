@@ -1,6 +1,7 @@
 local palette = {
 	front = '#f5c1e9',
-	back = '#120b10',
+	back = '#2a252f',
+	sel = '#333333',
 
 	black = '#333333',
 	light_black = '#777777',

@@ -88,7 +88,7 @@ local theme = lush(function(injected_functions)
     -- NormalNC       { }, -- normal text in non-current windows
     -- point
     Pmenu          { fg = palette.light_red, bg = palette.back }, -- Popup menu: Normal item.
-    PmenuSel       { fg = palette.light_white, bg = palette.red }, -- Popup menu: Selected item.
+    PmenuSel       { fg = palette.light_red, bg = palette.black }, -- Popup menu: Selected item.
     -- PmenuKind      { }, -- Popup menu: Normal item "kind"
     -- PmenuKindSel   { }, -- Popup menu: Selected item "kind" 
     -- PmenuExtra     { }, -- Popup menu: Normal item "extra text" 
@@ -109,7 +109,7 @@ local theme = lush(function(injected_functions)
     -- TabLineFill    { }, -- Tab pages line, where there are no labels
     -- TabLineSel     { }, -- Tab pages line, active tab page label
     Title          { fg = palette.red }, -- Titles for output from ":set all", ":autocmd" etc.
-    Visual         { fg = palette.light_white, bg = palette.red }, -- Visual mode selection
+    Visual         { bg = palette.black }, -- Visual mode selection
     VisualNOS      { fg = palette.light_black }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg     { fg = palette.red }, -- Warning messages
     Whitespace     { fg = palette.black }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
